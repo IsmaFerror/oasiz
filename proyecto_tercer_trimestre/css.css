@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+head{
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    font-family: ""
+}
+
+.cabecera{
+    background-color: rgb(236, 235, 235);
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 80px;
+    width: 200px;
+    margin-top: 35px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 800px; 
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.867); 
+}
+
