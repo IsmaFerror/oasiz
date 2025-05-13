@@ -1,0 +1,36 @@
+.hoverDark:hover {
+  filter: brightness(50%)
+}
+
+.mainLogo {
+  height: 4rem;
+}
+
+.videoPlayer {
+  z-index: -1;
+  width: 60%;
+  position: absolute;
+  top: 7%;
+}
+
+.wave1 {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 40%;
+}
+
+.content {
+  z-index: 10;
+  margin-top: 40%;
+  background-color: white;
+}
+
+.sideImage {
+  height: 30rem;
+}
+
+.carouselImg {
+  min-height: 35rem;
+}

@@ -11,3 +11,6 @@
 - [ ] imagenes originales del oasiz 
 
 - [ ] footer con información legal etc como esta:
+
+
+dentro de faq estaran horarios contacto y legal
