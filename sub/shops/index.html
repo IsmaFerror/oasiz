@@ -3,93 +3,568 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Oasiz Madrid - Tiendas</title>
+    <title>Tiendas del Centro Comercial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1>Oasiz Madrid - Tiendas</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/cine">Cine</a></li>
-                <li><a href="/restaurantes">Restaurantes</a></li>
-                <li><a href="/tiendas">Tiendas</a></li>
-                <li><a href="/ofertas">Ofertas</a></li>
-                <li><a href="/contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Descubre nuestras tiendas</h2>
-            <p>Oasiz Madrid ofrece una amplia variedad de tiendas de moda, tecnología, belleza y más.</p>
-        </section>
 
-        <section>
-            <h2>Tiendas destacadas</h2>
-            <ul>
-                <li>
-                    <h3>Zara</h3>
-                    <p>Últimas tendencias en moda para mujer, hombre y niño.</p>
-                </li>
-                <li>
-                    <h3>Primor</h3>
-                    <p>Perfumería y cosmética con las mejores marcas a precios competitivos.</p>
-                </li>
-                <li>
-                    <h3>MediaMarkt</h3>
-                    <p>Tecnología, electrodomésticos y electrónica de consumo.</p>
-                </li>
-                <li>
-                    <h3>Decathlon</h3>
-                    <p>Todo lo que necesitas para practicar deporte y actividades al aire libre.</p>
-                </li>
-                <li>
-                    <h3>Mango</h3>
-                    <p>Moda actual con estilo elegante y urbano.</p>
-                </li>
-            </ul>
-        </section>
+    <div class="container mt-4">
+        <h1>Tiendas </h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-1">
+                    <img src="../../resources/img/shops/adidas.png" class="card-img-top" alt="Logo Tienda 1">
+                </div>
+                <div class="modal fade" id="tiendaModal-1" tabindex="-1" aria-labelledby="tiendaModalLabel-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-1">Adidas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/adidas.png" alt="Logo de Tienda 1" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda que ofrece productos de la marca Adidas (ropa deportiva, calzado y accesorios) con descuentos significativos, típicamente de colecciones pasadas o con alguna tara menor. Es ideal para encontrar artículos de Adidas a precios más económicos....</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.adidas.es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <section>
-            <h2>Horarios</h2>
-            <p>Las tiendas abren de lunes a domingo de 10:00 a 22:00.</p>
-        </section>
-        <img src="../../resources/img/shops/adidas.png" alt="Logo Tienda 1">
-        <img src="../../resources/img/shops/aromas.jpeg" alt="Logo Tienda 2">
-        <img src="../../resources/img/shops/belroso.png" alt="Logo Tienda 3">
-        <img src="../../resources/img/shops/decimas.jpg" alt="Logo Tienda 4">
-        <img src="../../resources/img/shops/desigual.jpeg" alt="Logo Tienda 5">
-        <img src="../../resources/img/shops/etam.jpeg" alt="Logo Tienda 6">
-        <img src="../../resources/img/shops/HALFPRICE-1.jpg" alt="Logo Tienda 7">
-        <img src="../../resources/img/shops/jugueton.jpeg" alt="Logo Tienda 8">
-        <img src="../../resources/img/shops/jysk.png" alt="Logo Tienda 9">
-        <img src="../../resources/img/shops/k-tuin.jpeg" alt="Logo Tienda 10">
-        <img src="../../resources/img/shops/kavehome-logo-grande.png" alt="Logo Tienda 11">
-        <img src="../../resources/img/shops/kiwoko-logo.webp" alt="Logo Tienda 12">
-        <img src="../../resources/img/shops/mango.jpeg" alt="Logo Tienda 13">
-        <img src="../../resources/img/shops/Mayoral_logo-300x300-1-1.png" alt="Logo Tienda 14">
-        <img src="../../resources/img/shops/milbby.jpg" alt="Logo Tienda 15">
-        <img src="../../resources/img/shops/muy-mucho.jpeg" alt="Logo Tienda 16">
-        <img src="../../resources/img/shops/nike.jpg" alt="Logo Tienda 17">
-        <img src="../../resources/img/shops/okaidi.jpeg" alt="Logo Tienda 18">
-        <img src="../../resources/img/shops/Outly1.png" alt="Logo Tienda 19">
-        <img src="../../resources/img/shops/plus-man-logo.jpg" alt="Logo Tienda 20">
-        <img src="../../resources/img/shops/primor.png" alt="Logo Tienda 21">
-        <img src="../../resources/img/shops/pull&bear.jpg" alt="Logo Tienda 22">
-        <img src="../../resources/img/shops/puma.png" alt="Logo Tienda 23">
-        <img src="../../resources/img/shops/springfield.jpeg" alt="Logo Tienda 24">
-        <img src="../../resources/img/shops/terranova.webp" alt="Logo Tienda 25">
-        <img src="../../resources/img/shops/women-secret.jpeg" alt="Logo Tienda 26">
-    </main>
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-2">
+                    <img src="../../resources/img/shops/aromas.jpeg" class="card-img-top" alt="Logo Tienda 2">
+                </div>
+                <div class="modal fade" id="tiendaModal-2" tabindex="-1" aria-labelledby="tiendaModalLabel-2" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-2">Aromas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/aromas.jpeg" alt="Logo de Tienda 2" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una perfumería que vende fragancias, cosméticos y productos de cuidado personal de diversas marcas, incluyendo primeras marcas. Su filosofía se basa en ofrecer productos selectivos y asesoramiento personalizado.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.aromas.es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <footer>
-        <p>&copy; 2025 Oasiz Madrid. Todos los derechos reservados.</p>
-        <p>Dirección: Avenida Premios Nobel, 1, Torrejón de Ardoz, Madrid</p>
-        <p>Teléfono: +34 912 345 678 | Email: info@oasizmadrid.com</p>
-    </footer>
+           <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-3">
+                    <img src="../../resources/img/shops/OIP.jpeg" class="card-img-top" alt="Logo Tienda 3">
+                </div>
+                <div class="modal fade" id="tiendaModal-3" tabindex="-1" aria-labelledby="tiendaModalLabel-3" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-3">Action</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/action.png" alt="Logo de Tienda 3" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una cadena de tiendas de descuento no alimentaria. Ofrece una amplia y sorprendente variedad de productos para el hogar, bricolaje, jardinería, juguetes, decoración y mucho más, a precios muy bajos. Se caracteriza por tener un surtido que cambia constantemente con novedades cada semana.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.action.com/es-es/?msockid=26e4c86661b36ae42b4cdc92601c6bec" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-4">
+                    <img src="../../resources/img/shops/belrosologo.jpeg" class="card-img-top" alt="Logo Tienda 4">
+                </div>
+                <div class="modal fade" id="tiendaModal-4" tabindex="-1" aria-labelledby="tiendaModalLabel-4" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-4">Tienda 4</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/belroso.png" alt="Logo de Tienda 4" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una cadena de tiendas especializada en la venta de golosinas, frutos secos, snacks y artículos de fiesta. Ofrecen una gran variedad de productos dulces y salados, siendo un lugar popular para comprar provisiones para celebraciones o simplemente para darse un capricho...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.belros.com/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-5">
+                    <img src="../../resources/img/shops/carloslogo.avif" class="card-img-top" alt="Logo Tienda 5">
+                </div>
+                <div class="modal fade" id="tiendaModal-5" tabindex="-1" aria-labelledby="tiendaModalLabel-5" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-5">Barberia Carlos Conde</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/carlosConde.jpg" alt="Logo de Tienda 5" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una barbería que ofrece servicios de peluquería y cuidado masculino, incluyendo cortes de pelo, arreglo de barba, afeitados y otros tratamientos. Se caracteriza por un servicio profesional y personalizado...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.carloscondepeluqueros.com/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-6">
+                    <img src="../../resources/img/shops/decimas.jpg" class="card-img-top" alt="Logo Tienda 6">
+                </div>
+                <div class="modal fade" id="tiendaModal-6" tabindex="-1" aria-labelledby="tiendaModalLabel-6" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-6">Decimas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/decimas.jpg" alt="Logo de Tienda 6" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p> Es una tienda de deportes que ofrece ropa, equipamiento, calzado y materiales deportivos de marcas reconocidas..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.decimas.com/es-es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-7">
+                    <img src="../../resources/img/shops/desigual.jpeg" class="card-img-top" alt="Logo Tienda 7">
+                </div>
+                <div class="modal fade" id="tiendaModal-7" tabindex="-1" aria-labelledby="tiendaModalLabel-7" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-7">Desigual</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/desigual.jpeg" alt="Logo de Tienda 7" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p> Es una tienda de ropa que vende moda moderna y colorida para mujer, además de bolsos, accesorios y zapatos..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.desigual.com/es_ES/?tduid=d69edd50eb0674069f5a385519e7b72f&utm_source=tradedoubler&msclkid=8f3f220fabf111fe09f04a2c2e3c4fc4" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-8">
+                    <img src="../../resources/img/shops/etam.jpeg" class="card-img-top" alt="Logo Tienda 8">
+                </div>
+                <div class="modal fade" id="tiendaModal-8" tabindex="-1" aria-labelledby="tiendaModalLabel-8" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-8">Etam</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/etam.jpeg" alt="Logo de Tienda 8" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda de lencería y ropa interior para mujer. Ofrece una amplia gama de productos, desde sujetadores y bragas hasta pijamas y ropa de baño...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.etam.es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-9">
+                    <img src="../../resources/img/shops/extensiones-de-cabello-natural-cadiz-extensionmania.jpeg" class="card-img-top" alt="Logo Tienda 9">
+                </div>
+                <div class="modal fade" id="tiendaModal-9" tabindex="-1" aria-labelledby="tiendaModalLabel-9" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-9">ExtensionMania</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/extensiones-de-cabello-natural-cadiz-extensionmania.jpeg" alt="Logo de Tienda 9" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda especializada en extensiones de cabello, pelucas y otros productos relacionados con el cuidado y la belleza del cabello..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.extensionmania.com/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-10">
+                    <img src="../../resources/img/shops/fnac.jpg" class="card-img-top" alt="Logo Tienda 10">
+                </div>
+                <div class="modal fade" id="tiendaModal-10" tabindex="-1" aria-labelledby="tiendaModalLabel-9" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-9">FNAC</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/fnac.jpg" alt="Logo de Tienda 10" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda que vende electrónica, libros, música, películas, videojuegos y otros productos culturales y tecnológicos...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.fnac.es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+           
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-11">
+                    <img src="../../resources/img/shops/huboasiz.jpg" class="card-img-top" alt="Logo Tienda 11">
+                </div>
+                <div class="modal fade" id="tiendaModal-11" tabindex="-1" aria-labelledby="tiendaModalLabel-11" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-11">HubOasiz</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/huboasiz.jpg" alt="Logo de Tienda 11" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Aquí podrás encontrar nuestro Amazon Locker, Seur Locker, Fotomatón, Impresión de fotos y un cajero...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-12">
+                    <img src="../../resources/img/shops/HALFPRICE-1.jpg" class="card-img-top" alt="Logo Tienda 12">
+                </div>
+                <div class="modal fade" id="tiendaModal-12" tabindex="-1" aria-labelledby="tiendaModalLabel-12" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-12">Half Price</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/HALFPRICE-1.jpg" alt="Logo de Tienda 12" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda outlet que ofrece una gran variedad de productos de marcas conocidas e incluso de lujo a precios reducidos. Su surtido incluye ropa, calzado, accesorios, artículos para el hogar y más.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.halfprice.eu/es" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-13">
+                    <img src="../../resources/img/shops/jugueton.jpeg" class="card-img-top" alt="Logo Tienda 13">
+                </div>
+                <div class="modal fade" id="tiendaModal-13" tabindex="-1" aria-labelledby="tiendaModalLabel-13" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-13">Juguetton</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/jugueton.jpeg" alt="Logo de Tienda 13" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda de juguetes que ofrece una amplia variedad de juguetes, videojuegos, artículos para bebés y material escolar. Trabajan con diversas marcas y también tienen productos de marca propia...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://juguettos.com/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-14">
+                    <img src="../../resources/img/shops/jysk.png" class="card-img-top" alt="Logo Tienda 14">
+                </div>
+                <div class="modal fade" id="tiendaModal-14" tabindex="-1" aria-labelledby="tiendaModalLabel-14" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-14">JYSK</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/jysk.png" alt="Logo de Tienda 14" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una cadena de tiendas de origen danés especializada en artículos para el hogar. Ofrecen muebles, colchones, ropa de cama, decoración, textiles para el hogar y otros productos para todas las estancias de la casa a precios competitivos...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://jysk.es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-15">
+                    <img src="../../resources/img/shops/kavehome-logo-grande.png" class="card-img-top" alt="Logo Tienda 15">
+                </div>
+                <div class="modal fade" id="tiendaModal-15" tabindex="-1" aria-labelledby="tiendaModalLabel-15" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-15">Kave-Home</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/kavehome-logo-grande.png" alt="Logo de Tienda 15" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda de muebles y decoración con un diseño moderno y funcional. Ofrecen una amplia gama de productos para el hogar, desde sofás y mesas hasta iluminación y accesorios decorativos. En Oasiz Madrid se encuentra su outlet, por lo que podrás encontrar sus productos a precios reducidos....</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://kavehome.com/es/es" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-16">
+                    <img src="../../resources/img/shops/kiwoko-logo.webp" class="card-img-top" alt="Logo Tienda 16">
+                </div>
+                <div class="modal fade" id="tiendaModal-16" tabindex="-1" aria-labelledby="tiendaModalLabel-16" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-16">Kiwoko</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/kiwoko-logo.webp" alt="Logo de Tienda 16" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p> Es una tienda de productos para mascotas. Ofrecen una gran variedad de alimentos, accesorios, productos de higiene y salud para todo tipo de animales, desde perros y gatos hasta pequeños mamíferos, aves y peces. También suelen contar con servicios de peluquería canina y acuariofilia...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.kiwoko.com/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-17">
+                    <img src="../../resources/img/shops/nike.jpg" class="card-img-top" alt="Logo Tienda 17">
+                </div>
+                <div class="modal fade" id="tiendaModal-17" tabindex="-1" aria-labelledby="tiendaModalLabel-17" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-17">NIKE</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/nike.jpg" alt="Logo de Tienda 17" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda oficial de la marca Nike que ofrece una amplia gama de ropa deportiva, calzado y accesorios para diversas disciplinas y estilos de vida..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.nike.com/es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-18">
+                    <img src="../../resources/img/shops/puma.png" class="card-img-top" alt="Logo Tienda 18">
+                </div>
+                <div class="modal fade" id="tiendaModal-18" tabindex="-1" aria-labelledby="tiendaModalLabel-18" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-18">Puma</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/puma.png" alt="Logo de Tienda 18" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda oficial de la marca Puma que vende ropa deportiva, calzado y accesorios con un enfoque en el deporte y el estilo urbano...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://eu.puma.com/es/es/home" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-19">
+                    <img src="../../resources/img/shops/primor.png" class="card-img-top" alt="Logo Tienda 19">
+                </div>
+                <div class="modal fade" id="tiendaModal-19" tabindex="-1" aria-labelledby="tiendaModalLabel-19" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-19">Primor</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/primor.png" alt="Logo de Tienda 19" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una perfumería y droguería que ofrece una gran variedad de productos de belleza, cosméticos, perfumes, higiene personal y para el hogar a precios competitivos..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.primor.eu/es_es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-20">
+                    <img src="../../resources/img/shops/pull&bear.jpg" class="card-img-top" alt="Logo Tienda 20">
+                </div>
+                <div class="modal fade" id="tiendaModal-20" tabindex="-1" aria-labelledby="tiendaModalLabel-20" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tiendaModalLabel-20">Pull&Bear</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../../resources/img/shops/pull&bear.jpg" alt="Logo de Tienda 20" class="img-fluid mb-3" style="max-height: 150px;">
+                                <p>Es una tienda de moda joven con un estilo informal y urbano. Ofrece ropa, calzado y accesorios para hombre y mujer, siguiendo las últimas tendencias..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.pullandbear.com/es/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+    <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-21">
+        <img src="../../resources/img/shops/k-tuin.jpeg" class="card-img-top" alt="Logo Tienda 21">
+    </div>
+    <div class="modal fade" id="tiendaModal-21" tabindex="-1" aria-labelledby="tiendaModalLabel-21" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tiendaModalLabel-21">K-TUIN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="../../resources/img/shops/k-tuin.jpeg" alt="Logo de Tienda 21" class="img-fluid mb-3" style="max-height: 150px;">
+                    <p>Es una Apple Premium Reseller, una tienda oficial de productos Apple donde puedes encontrar toda su gama (iPhone, iPad, Mac, Apple Watch, etc.) y accesorios originales. También ofrecen servicio técnico y formación...</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.k-tuin.com/" target="_blank" class="btn btn-primary">Ir a la página</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-22">
+        <img src="../../resources/img/shops/springfield.jpeg" class="card-img-top" alt="Logo Tienda 22">
+    </div>
+    <div class="modal fade" id="tiendaModal-22" tabindex="-1" aria-labelledby="tiendaModalLabel-22" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tiendaModalLabel-22">Springfield</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="../../resources/img/shops/springfield.jpeg" alt="Logo de Tienda 22" class="img-fluid mb-3" style="max-height: 150px;">
+                    <p>Es una tienda de moda joven y casual para hombre y mujer. Ofrecen ropa, calzado y accesorios siguiendo las tendencias actuales con un estilo informal y urbano..</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://myspringfield.com/es/es" target="_blank" class="btn btn-primary">Ir a la página</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 tienda-caja" data-bs-toggle="modal" data-bs-target="#tiendaModal-23">
+        <img src="../../resources/img/shops/women-secret.jpeg" class="card-img-top" alt="Logo Tienda 23">
+    </div>
+    <div class="modal fade" id="tiendaModal-23" tabindex="-1" aria-labelledby="tiendaModalLabel-23" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tiendaModalLabel-23">Women-Secret</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="../../resources/img/shops/women-secret.jpeg" alt="Logo de Tienda 23" class="img-fluid mb-3" style="max-height: 150px;">
+                    <p> Es una tienda de lencería, ropa interior, pijamas y ropa de baño para mujer. También suelen tener perfumes y algunos accesorios....</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://womensecret.com/es/es" target="_blank" class="btn btn-primary">Ir a la página</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
