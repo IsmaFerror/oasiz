@@ -1,114 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Oasiz Madrid - News</title>
-</head>
-<body>
-    <header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oasiz Madrid - Noticias</title>
+  <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
 
-    </header>
-    <main>
-        <h1>Noticias</h1>
-        <div>
-            <img src="/resources/img/news/altavoz.webp" alt="altavoz">
-            <h2>Sorteo altavoz Marshall</h2>
-            <p>
-                ¡Celebra el Día del Padre con nosotros y participa en un sorteo exclusivo!
-                <br>
-                Comparte esta oportunidad con tus amigos para que no dejen pasar esta oportunidad 
-                Es muy fácil.
-            </p>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="bg-dark text-white p-3 mb-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3 mb-0"><i class="fas fa-newspaper"></i> Noticias Oasiz Madrid</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="/">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="/tiendas">Tiendas</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="/restaurantes">Restaurantes</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="/ofertas">Ofertas</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Carrusel estático (primer slide visible) -->
+    <div id="carouselNoticias" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/resources/img/news/altavoz.webp" class="d-block w-100" alt="altavoz" style="height: 700px; width: 200px;"/>
         </div>
-        <div>
-            <img src="/resources/img/news/carnaval.webp" alt="carnaval">
-            <h2>¡Carnavales en Oasiz Madrid!</h2>
-            <p>
-                🎭 ¡Este fin de semana, prepárate para divertirte en familia! 🎭
-                <br>
-                Desde el viernes 28 hasta el lunes 3 de marzo (ambos incluidos), te traemos a 
-                Oasiz Madrid una experiencia única llena de risas, creatividad y magia para todos. 
-                No te pierdas los shows de payasos y talleres para los más pequeños. 
-                <br>
-                ¡Ven a disfrutar con nosotros! 
-            </p>
+        <div class="carousel-item">
+          <img src="/resources/img/news/carnaval.webp" class="d-block w-100" alt="carnaval" style="height: 700px; width: 200px;"/>
         </div>
-        <div>
-            <img src="/resources/img/news/half.webp" alt="half">
-            <h2>APERTURA HALF PRICE</h2>
-            <p>
-                ¡Half Price es el lugar donde encontrarás productos de más de 3,000 marcas globales 
-                a precios irresistibles! 
-                <br>
-                La variedad incluye ropa, calzado, accesorios para el hogar, artículos deportivos, 
-                accesorios para mascotas y snacks de todas partes del mundo. Se basa en un concepto 
-                de ventas off-price que garantiza productos originales de alta calidad a los mejores 
-                precios.
-            </p>
+        <div class="carousel-item">
+          <img src="/resources/img/news/navidad.webp" class="d-block w-100" alt="navidad" style="height: 700px; width: 200px;"/>
         </div>
-        <div>
-            <img src="/resources/img/news/rebajas.webp" alt="rebajas">
-            <h2>¡Se abre la temporada de rebajas! 🛍️</h2>
-            <p>
-                Ven a Oasiz y descrube los mejores descuentos en Moda 👗 Hogar 🏠 Deporte 
-                ⚽ Complementos 👠 ¡Y mucho más!
-            </p>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Noticias en acordeón estático -->
+    <section>
+      <h2 class="mb-4">Últimas Noticias</h2>
+      <div class="accordion" id="noticiasAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              Sorteo altavoz Marshall
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <img src="/resources/img/news/altavoz.webp" class="img-fluid mb-2" alt="" style="height: 200px;">
+              <p>¡Celebra el Día del Padre con nosotros y participa en un sorteo exclusivo!</p>
+            </div>
+          </div>
         </div>
-        <div>
-            <img src="/resources/img/news/torrejoneros.webp" alt="">
-            <h2>Torrejoneros al cine</h2>
-            <p>
-                En Oasiz, ser de Torrejón… ¡Tiene premio! 🎁
-                <br>
-                Regalamos 1.000 entradas para Cinesa Luxe Oasiz Madrid, válidas durante el mes de diciembre, 
-                a las primeras mil personas que vengan al Centro Comercial y acrediten, mediante su DNI, 
-                que son de Torrejón 🎬
-            </p>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              ¡Carnavales en Oasiz Madrid!
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <img src="/resources/img/news/carnaval.webp" class="img-fluid mb-2" alt="" style="height: 200px;">
+              <p>Shows de payasos, talleres y diversión para toda la familia.</p>
+            </div>
+          </div>
         </div>
-        <div>
-            <img src="/resources/img/news/navidad.webp" alt="navidad">
-            <h2>¡Disfruta de la Navidad en Oasiz Madrid! 🌟🎄</h2>
-            <p>
-                Un año más, Oasiz Madrid se viste de Navidad 🎄 con las mejores experiencias* para toda la 
-                familia. Unas fiestas cargadas de regalos, sorpresas, ilusión y multitud de planes. Sumérgete 
-                en la Fábrica de la Navidad, conoce a Mamá Noel y a un Rey Mago, asiste al cambio de guardia 
-                de los soldaditos del Cascanueces…. 
-                <br>
-                ¡Y mucho más! 🌟
-            </p>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              APERTURA HALF PRICE
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <img src="/resources/img/news/half.webp" class="img-fluid mb-2" alt="" style="height: 200px;">
+              <p>Más de 3.000 marcas a precios increíbles: ropa, hogar, deporte y más.</p>
+            </div>
+          </div>
         </div>
-        <div>
-            <img src="/resources/img/news/concierto.webp" alt="concierto">
-            <h2>¡Concierto del Coro Gospel y el Show de Frozen en Oasiz Madrid! 🎤 🌴</h2>
-            <p>
-                Ven con tu familia y amigos para disfrutar de estas maravillosas actuaciones los días 6 y 7 de 
-                Diciembre y a compartir el espíritu de estas fechas en Oasiz. 
-            </p>
+        <!-- Puedes continuar añadiendo más items igual -->
+      </div>
+    </section>
+
+    <!-- Formulario de suscripción -->
+    <section class="mt-5">
+      <h2><i class="fas fa-envelope"></i> Suscríbete para recibir noticias</h2>
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico:</label>
+          <input type="email" id="email" name="email" class="form-control" required />
         </div>
-        <div>
-            <img src="/resources/img/news/blackdays.webp" alt="blackdays">
-            <h2>¡Vive el Black Friday en Oasiz Madrid! 🛍️✨</h2>
-            <p>
-                Hasta el 1 de diciembre, te traemos una semana llena de descuentos, diversión y grandes 
-                oportunidades. Descubre lo que hemos preparado.
-            </p>
-        </div>
-        <div>
-            <img src="/resources/img/news/zonazero.webp" alt="zonazero">
-            <h2>¡Halloween 2024 en Oasiz Madrid: Vive el Terror como Nunca!</h2>
-            <p>
-                Este mes de octubre, Oasiz Madrid se transforma en el destino más espeluznante con una 
-                experiencia única para toda la familia. ¡Prepárate para vivir un Halloween lleno de 
-                sorpresas, desfiles de monstruos y mucho más!
-            </p>
-        </div>
-    </main>
-    <footer>
-        
-    </footer>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Suscribirme</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center p-4 mt-5">
+    <p>&copy; 2025 Oasiz Madrid - Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Bootstrap JS solo para funcionalidades (no contiene lógica personalizada) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
