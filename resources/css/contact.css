@@ -1,0 +1,6 @@
+.content {
+  background-color: white;
+  width: calc(200px + 40vw);
+  margin: auto;
+  margin-top: 12vh;
+}
