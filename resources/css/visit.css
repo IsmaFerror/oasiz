@@ -1,48 +1,37 @@
-body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f4;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .container {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    .section {
-      background: white;
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .section h2 {
-      color: #087c39;
-    }
-    .highlight {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #444;
-    }
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-    }
-    .info-line {
-      margin-top: 0.5rem;
-      font-style: italic;
-      color: #666;
-    }
-    .mapa{
-        width: 900px;
-        max-width: 100%;
-    }
-    .img_1{
-        width: 900px;
-        max-width: 100%;
-    }
+.content {
+  margin-top: 12vh;
+  background-color: white;
+}
+
+.section {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.section h2 {
+  color: #087c39;
+}
+
+.highlight {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.info-line {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #666;
+}
+
+.mapa{
+    width: 900px;
+    max-width: 100%;
+}
+
+.img_1{
+    width: 900px;
+    max-width: 100%;
+}
