@@ -1,0 +1,8 @@
+.content {
+  margin-top: 10vh;
+  background-color: white;
+}
+
+.entertainmentImg {
+  width: calc(30vw + 300px);
+}
