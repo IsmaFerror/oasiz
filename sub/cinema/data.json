@@ -1,0 +1,46 @@
+{
+  "movies": [
+    {
+      "tittle": "Lilo y Stitch", 
+      "tag": "Acción, Comedia, Aventura", 
+      "duration": "1h 47m", 
+      "img": "./img/Poster1.jpg",
+      "url": "https://www.cinesa.es/peliculas/lilo-y-stitch/HO00002084/"
+    },
+    {
+      "tittle": "Misión imposible: Sentencia final", 
+      "tag": "Acción, Aventura, Thriller", 
+      "duration": "2h 49m", 
+      "img": "./img/Poster2.jpg",
+      "url": "https://www.cinesa.es/peliculas/mision-imposible-sentencia-final/HO00002146/"
+    },
+    {
+      "tittle": "Cómo entrenar a tu dragón", 
+      "tag": "Acción, Familiar, Aventura", 
+      "duration": "2h 5m", 
+      "img": "./img/Poster3.jpg",
+      "url": "https://www.cinesa.es/peliculas/como-entrenar-a-tu-dragon/HO00002140/"
+    },
+    {
+      "tittle": "F1® LA PELÍCULA", 
+      "tag": "Drama, Deportes", 
+      "duration": "2h 33m", 
+      "img": "./img/Poster4.jpg",
+      "url": "https://www.cinesa.es/peliculas/f1-la-pelicula/HO00002052/"
+    },
+    {
+      "tittle": "Ballerina", 
+      "tag": "Acción, Crimen, Thriller", 
+      "duration": "2h 4m", 
+      "img": "./img/Poster5.jpg",
+      "url": "https://www.cinesa.es/peliculas/ballerina/HO00002169/"
+    },
+    {
+      "tittle": "Ne Zha 2", 
+      "tag": "Acción, Animación, Drama", 
+      "duration": "2h 24m", 
+      "img": "./img/Poster6.jpg",
+      "url": "https://www.cinesa.es/peliculas/ne-zha-2/HO00002286/"
+    }
+  ]
+}
